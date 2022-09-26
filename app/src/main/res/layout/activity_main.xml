@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAcceso"
+        android:layout_width="133dp"
+        android:layout_height="55dp"
+        android:text="ACCESO"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="440dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtContraseña"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:autoSizeTextType="none"
+        android:text="CONTRASEÑA::"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:text="USUARIO:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="316dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/wrTxtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Usuario"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/WrTxtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="363dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diseñado por Eva Ramos"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="689dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="296dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/descarga"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="126dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
