@@ -75,6 +75,6 @@
         app:srcCompat="@drawable/descarga"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="126dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"  />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
